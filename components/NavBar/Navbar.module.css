@@ -1,0 +1,109 @@
+
+
+.navbar{
+    width: 100%;
+    margin-bottom: 2rem;
+    z-index: 999;
+    position: relative;
+    background: transparent !important;
+    color: white !important;
+ }
+ 
+ 
+ .title{
+    cursor: pointer;
+ }
+ 
+ 
+ 
+ 
+ .navbar_box{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent !important;
+    color: white !important;
+ }
+ 
+ 
+ .connect{
+    background: transparent !important;
+    color: white !important;
+    padding: .5rem 2rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+    position: relative;
+ }
+ 
+ 
+ .navigation{
+    position: absolute;
+    padding: 1rem;
+    width: 15rem;
+    right: 0;
+    top: 3rem;
+    border-radius: .2rem;
+    z-index: 111111111111;
+    background: transparent !important;
+    color: white !important;
+ }
+ .connect button{
+    border: 0;
+    font-size: 1rem;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent !important; 
+ }
+ 
+ 
+ .connect_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .connect span{
+    font-size: 2rem;
+    margin-left: 1rem;
+ }
+ 
+ 
+ .message__Box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 3rem;
+    background-color: #aecdaf;
+    position: absolute;
+    z-index: 11111;
+    border-radius: 1rem;
+    font-size: 2rem;
+ 
+ 
+ }
+ 
+ 
+ @media screen and (max-width: 35em) {
+ 
+ 
+    .navbar{
+        width: 100%;
+        height: 7rem;
+    }
+    .navbar_box{
+        padding-top: 1rem;
+    }
+    .message__Box{
+        width: 80%;
+        font-size: 1.3rem;
+        padding: 2rem 1rem;
+        top: 55%;
+    }
+   
+ }
+ 
+ 

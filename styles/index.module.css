@@ -1,0 +1,117 @@
+.home{
+    width: 70%;
+    margin: 0 auto;
+    margin-block: 2rem;
+ }
+ 
+ 
+ .winner{
+    margin-block: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+ }
+ 
+ 
+ .winnerButton{
+    background-color: #7f7a58;
+    color: white;
+    border-radius: 11px;
+    padding: 1rem;
+    font-size: 21px;
+    cursor: pointer;
+ }
+ 
+ 
+ .winnerText{
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+ }
+ 
+ 
+ .winner_info{
+    padding: 1rem;
+    border-radius: .2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+ background: rgba(255, 255, 255, 0.2);
+ border-radius: 10px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(4.5px);
+ -webkit-backdrop-filter: blur(4.5px);
+ }
+ 
+ 
+ 
+ 
+ .winner_message{
+    background-color: #F4D1AE;
+    padding: 2rem;
+    border-radius: .2rem;
+    font-size: 1.5rem;
+    color: #000000;
+    line-height: 0;
+    position: relative;
+ }
+ 
+ 
+ .winner_message small{
+    font-size: 5rem;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .candidate_list{
+    color: white;
+    background: none;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    font-size: 1.3rem;
+    padding: .1rem 1rem;
+ }
+ 
+ 
+ .candidate_list p{
+    font-weight: 600;
+ }
+ .candidate_list span{
+    color: white;
+    background: transparent;
+    border-radius: 16px;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: .5rem;
+    margin-left: .5rem;
+    border-radius: .2rem;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen  and (max-width: 35em){
+    .home{
+        width: 90%;
+    }
+    .winner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .winner_message small{
+        font-size: 2rem;
+    }
+ }
+ 
+ 
+ 
+ 
